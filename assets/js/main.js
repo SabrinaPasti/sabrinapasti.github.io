@@ -5,11 +5,9 @@ $(document).ready(function(){
   $(window).on('scroll', function() {
   
     if ($(window).scrollTop() == 0){
-      console.log('zero');
       $('.header').toggleClass('header__top');
     } 
     else if($(window).scrollTop() > 0){
-      console.log('mais q zero');
       $('.header').removeClass('header__top');
 
     }
