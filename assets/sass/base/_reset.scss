@@ -1,0 +1,48 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body {
+    box-sizing: border-box;
+    position: relative;
+    font-family: "Roboto", sans-serif;
+    background-color: #fff;
+}
+img {
+    max-width: 100%;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+button {
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-family: inherit;
+}
+.wrapper {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1160px;
+
+    @media (max-width: 1200px) {
+        max-width: 90%;
+    }
+}
+
+main{
+    margin-top: -10rem;
+}
+
+.paddingB{
+    padding-bottom: 8rem;
+}
